@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+*.spec.bak
+
+# Runtime data (do not ship user data)
+data/
+*.db
+*.sqlite3
+*.sqlite3-journal
+logs/
+captures/
+*.log
+
+# Secrets
+.env
+*.credentials
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.manifest
+installer_output/
